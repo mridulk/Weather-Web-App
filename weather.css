@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(rgb(93, 226, 250),rgb(36, 162, 247),rgb(6, 71, 192));
+}
+.main{
+    margin-left: 500px;
+}
+.location{
+    padding:100px 0px;
+    display: inline-flex;
+    
+}
+.location canvas{
+    padding-left: 270px;
+}
+.temperature{
+    padding-top: 20px;
+}
+.degree-section{
+    display:flex;
+    align-items: center;
+}
+.degree-section span{
+    font-size: 35px;
+    padding:0px 10px;
+}
+.temperature-degree{
+    font-size: 50px;
+}
+.temperature {
+    cursor:pointer;
+}
+.days span{
+    margin-left: 100px;
+    padding-left: 5px;
+    font-size: 40px;
+    color:white;
+}
+.days canvas{
+    padding-left: 100px;
+}
